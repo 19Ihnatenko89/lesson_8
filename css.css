@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: aqua;
     width: 1000px;
     min-height: 1000px;
@@ -120,7 +120,7 @@ body{
 .main_footer{
     width: 100px;
     height: 105px;
-    margin-left:320px;
+    margin-left:850px;
     margin-top: 5px;
     background-color: darkblue;
     border: 1px solid;
@@ -130,7 +130,7 @@ body{
 .main_footer_1{
     width: 100px;
     height: 40px;
-    margin-right:430px;
+    margin-right:820px;
     margin-top: 5px;
     background-color: orangered;
     border: 1px solid;
@@ -140,8 +140,8 @@ body{
 .main_footer_2{
     width: 100px;
     height: 40px;
-    margin-right:-120px;
-    margin-top:70px;
+    margin-right:820px;
+    margin-top:5px;
     background-color: dimgray;
     border: 1px solid;
     padding: 10px;
