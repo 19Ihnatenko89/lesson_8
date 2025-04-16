@@ -1,15 +1,5 @@
 .body{
-    background-color: aqua;
-    width: 1000px;
-    min-height: 1000px;
-    border-collapse:collapse ;
-    border: burlywood;
-    margin:0;
-    overflow: hidden;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment:fixed;
+    box-sizing: border-box;
 }
 .container{
     box-sizing: border-box;
@@ -118,9 +108,9 @@
     overflow: hidden;
 }
 .main_footer{
-    width: 100px;
-    height: 105px;
-    margin-left:850px;
+    width: 300px;
+    height: 100px;
+    margin-left:435px;
     margin-top: 5px;
     background-color: darkblue;
     border: 1px solid;
@@ -128,9 +118,9 @@
     float: left;
 }
 .main_footer_1{
-    width: 100px;
+    width: 300px;
     height: 40px;
-    margin-right:820px;
+    margin-right:435px;
     margin-top: 5px;
     background-color: orangered;
     border: 1px solid;
@@ -138,9 +128,10 @@
     float:right;
 }
 .main_footer_2{
-    width: 100px;
+    width: 300px;
     height: 40px;
-    margin-right:820px;
+    margin-right:435px;
+    align-content: center;
     margin-top:5px;
     background-color: dimgray;
     border: 1px solid;
